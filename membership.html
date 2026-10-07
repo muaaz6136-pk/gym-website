@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM PRO - Membership</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+
+
+    <div class="logo">GYM<span>PRO</span></div>
+
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="membership.html" class="active">Membership</a></li>
+    </ul>
+
+    <button class="menu-btn" id="menuBtn">☰</button>
+
+</nav>
+
+
+</header>
+
+<main>
+
+<section class="page-header">
+    <h1>MEMBERSHIP</h1>
+    <p>Choose your fitness plan</p>
+</section>
+
+<section class="section">
+
+
+<div class="section-title">
+    <p>OUR PLANS</p>
+    <h2>MEMBERSHIP PRICES</h2>
+</div>
+
+<div class="pricing-grid">
+
+    <div class="price-card">
+        <h3>BASIC</h3>
+
+        <div class="price">
+            <span>Rs.</span> 3,000
+        </div>
+
+        <p>Per Month</p>
+
+        <ul>
+            <li>✓ Gym Access</li>
+            <li>✓ Cardio Area</li>
+            <li>✓ Basic Equipment</li>
+            <li>✕ Personal Trainer</li>
+            <li>✕ Fitness Assessment</li>
+        </ul>
+
+        <button class="price-btn" onclick="joinPlan('Basic')">
+            JOIN NOW
+        </button>
+    </div>
+
+
+    <div class="price-card popular">
+
+        <div class="popular-label">POPULAR</div>
+
+        <h3>STANDARD</h3>
+
+        <div class="price">
+            <span>Rs.</span> 5,000
+        </div>
+
+        <p>Per Month</p>
+
+        <ul>
+            <li>✓ Gym Access</li>
+            <li>✓ Cardio Area</li>
+            <li>✓ All Equipment</li>
+            <li>✓ Fitness Assessment</li>
+            <li>✕ Personal Trainer</li>
+        </ul>
+
+        <button class="price-btn" onclick="joinPlan('Standard')">
+            JOIN NOW
+        </button>
+
+    </div>
+
+
+    <div class="price-card">
+
+        <h3>PREMIUM</h3>
+
+        <div class="price">
+            <span>Rs.</span> 8,000
+        </div>
+
+        <p>Per Month</p>
+
+        <ul>
+            <li>✓ Gym Access</li>
+            <li>✓ Cardio Area</li>
+            <li>✓ All Equipment</li>
+            <li>✓ Fitness Assessment</li>
+            <li>✓ Personal Trainer</li>
+        </ul>
+
+        <button class="price-btn" onclick="joinPlan('Premium')">
+            JOIN NOW
+        </button>
+
+    </div>
+
+</div>
+
+
+</section>
+
+<section class="cta">
+
+
+<h2>START TRAINING TODAY</h2>
+
+<p>
+    Choose your membership plan and start working
+    toward your fitness goals.
+</p>
+
+<button class="btn" onclick="showMessage()">
+    GET STARTED
+</button>
+
+
+</section>
+
+</main>
+
+<footer>
+    <p>© 2026 GYM PRO. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
